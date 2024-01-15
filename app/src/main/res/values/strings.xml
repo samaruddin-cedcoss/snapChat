@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Practice</string>
+    <string name="coverImg">Cover Image</string>
+    <string name="snap_chat">Snap Chat</string>
+    <string name="login">Login</string>
+    <string name="signup">SignUp</string>
+    <string name="bgImg">Cover Image</string>
+</resources>
