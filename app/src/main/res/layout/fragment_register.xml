@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentdemo.Register"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Here"
+        android:background="@drawable/stylinglogin"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:padding="15dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/editUserName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter UserName"
+        android:textSize="24sp"
+        android:inputType="text"
+        android:textColor="#0055FD"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/editUserEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:textColor="#FB0000"
+        android:inputType="textEmailAddress"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editUserNumber"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile Number"
+        android:textSize="24sp"
+        android:inputType="phone"
+        android:textColor="#0055FD"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/editUserPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:textColor="#FB0000"
+        android:textSize="24sp"
+        android:inputType="numberPassword"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If already register"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        />
+    <Button
+        android:id="@+id/login_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Click Here"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:backgroundTint="#FB0303"/>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PracticeLayout</string>
+    <string name="id_a">id:A</string>
+    <string name="id_a_box">id:A</string>
+    <string name="layout2">Layout2</string>
+    <string name="layout1">Layout1</string>
+</resources>

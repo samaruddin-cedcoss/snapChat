@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentdemo.showData"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#004EFF"
+        android:textSize="24sp"
+        android:text="User Name "
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#004EFF"
+        android:textSize="24sp"
+        android:text="Email "
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#004EFF"
+        android:textSize="24sp"
+        android:text="Mobile Number "
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#004EFF"
+        android:textSize="24sp"
+        android:text="Password "
+        android:layout_marginTop="20dp"/>
+
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Back To LOgin Page"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:backgroundTint="#43FD00"/>
+</LinearLayout>

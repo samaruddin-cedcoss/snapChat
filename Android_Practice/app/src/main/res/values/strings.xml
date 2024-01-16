@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ConstraintLayout</string>
+    <string name="box_one">Box One</string>
+    <string name="box_two">Box Two</string>
+    <string name="box_three">Box Three</string>
+    <string name="box_four">Box Four</string>
+    <string name="box_five">Box Five</string>
+    <string name="button">Button</string>
+    <string name="button_2">Button 2</string>
+    <string name="button_3">Button 3</string>
+    <string name="button_5">Button 5</string>
+    <string name="button_4">Button 4</string>
+</resources>

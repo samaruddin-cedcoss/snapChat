@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">diceRoller</string>
+    <string name="cover_image">cover_image</string>
+    <string name="profile_image">profileImage</string>
+    <string name="md_samaruddin">Md Samaruddin</string>
+    <string name="android_developer">Android Developer</string>
+    <string name="todo">todo</string>
+    <string name="num">num</string>
+    <string name="sum">sum</string>
+    <string name="roll">roll</string>
+</resources>
